@@ -1,9 +1,13 @@
 module Subterfuge
 
+"Game unit"
+abstract type Unit end
+include("specialists.jl")
+
+
+struct Outpost
+end
 struct Sub
-	
 end
 
-function ministerofenergy()
-end
 end # module Subterfuge
